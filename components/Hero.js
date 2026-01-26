@@ -3,7 +3,7 @@ export default function Hero() {
   return (
       <section className="min-h-screen flex items-center justify-center px-6">
         <Particles/>
-        <div className="relative max-w-4xl">
+        <div className="relative max-w-4xl w-full">
           {/* Greeting */}
           <div className="mb-8">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-text-primary">
