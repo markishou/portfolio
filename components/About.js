@@ -8,19 +8,20 @@ export default function About() {
         {/* About Content */}
         <div className="space-y-6">
           <p className="text-lg leading-relaxed">
-            I’m a software engineer who’s motivated by learning and
-            understanding how systems work. I enjoy building tools that solve
-            real problems, and I try to approach each project as an opportunity
-            to improve how I think about code, design, and tradeoffs.
+            I’m a software engineer currently pursuing my B.Sc. in Computer
+            Science at the University of British Columbia (expected May 2026). I
+            enjoy building tools that solve real problems, and I approach each
+            project as an opportunity to improve how I write, structure, and reason
+            about code.
           </p>
 
           <p className="text-lg leading-relaxed">
-            As a new graduate, I’m continuing to explore different areas of
-            software engineering — from application development to system design
-            — while focusing on writing clear, maintainable code that others can
-            easily work with. I’m especially interested in how AI-assisted tools
-            and workflows can help developers build better software more
-            efficiently.
+            As an incoming new graduate, I’m continuing to explore different
+            areas of software engineering — from application development to
+            cloud infrastructure and distributed systems. I’m especially
+            interested in how large-scale systems are designed and operated in
+            production, and how design tradeoffs shape reliability and
+            performance.
           </p>
 
           <p className="text-lg leading-relaxed">
@@ -36,11 +37,11 @@ export default function About() {
             Technologies I work with
           </h3>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          <div className="flex flex-wrap gap-2">
             {/* TypeScript */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8 rounded-lg"
+                className="w-6 h-6 rounded-lg"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -58,17 +59,15 @@ export default function About() {
                   </clipPath>
                 </defs>
               </svg>
-              <div>
                 <p className="font-medium text-sm text-text-primary">
                   TypeScript
                 </p>
-              </div>
             </div>
 
             {/* React */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -100,16 +99,13 @@ export default function About() {
                   </clipPath>
                 </defs>
               </svg>
-              <div>
                 <p className="font-medium text-sm text-text-primary">React</p>
-              </div>
             </div>
 
-
             {/* Node.js */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -129,9 +125,9 @@ export default function About() {
             </div>
 
             {/* Python */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -180,9 +176,9 @@ export default function About() {
             </div>
 
             {/* Java */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -214,9 +210,9 @@ export default function About() {
             </div>
 
             {/* PostgreSQL */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -239,14 +235,16 @@ export default function About() {
                 />
               </svg>
               <div>
-                <p className="font-medium text-sm text-text-primary">Postgres</p>
+                <p className="font-medium text-sm text-text-primary">
+                  Postgres
+                </p>
               </div>
             </div>
 
             {/* AWS */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -281,9 +279,9 @@ export default function About() {
             </div>
 
             {/* Git */}
-            <div className="bg-background border border-border rounded-lg p-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
+            <div className="w-35 bg-background border border-border rounded-lg px-3 py-3 hover:border-accent/50 transition-colors flex flex-row items-center text-center gap-2">
               <svg
-                className="w-8 h-8"
+                className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 100 100"
@@ -300,9 +298,7 @@ export default function About() {
                   </clipPath>
                 </defs>
               </svg>
-              <div>
                 <p className="font-medium text-sm text-text-primary">Git</p>
-              </div>
             </div>
           </div>
         </div>
