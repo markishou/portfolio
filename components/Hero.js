@@ -17,7 +17,7 @@ export default function Hero() {
           {/* Tagline */}
           <p className="text-lg md:text-xl text-text-secondary max-w-2xl mb-12 leading-relaxed">
             Software engineer building thoughtful, well-designed systems. 
-            Currently exploring how AI can improve developer tooling and workflows.
+            Currently exploring how AI can improve developer productivity and workflows.
           </p>
 
           {/* CTA Buttons */}
@@ -26,7 +26,7 @@ export default function Hero() {
               View My Work
             </a>
             <a 
-              href="/resume.pdf" 
+              href="https://drive.google.com/file/d/1cwcjQduuMHMUI2rro2HQAWc1qT2NPBnJ/view?usp=sharing" 
               target="_blank"
               className="px-6 py-3 rounded-lg font-semibold border border-accent text-accent hover:bg-accent/10 transition-all duration-150 text-center"
             >
