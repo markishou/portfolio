@@ -26,7 +26,7 @@ export default function Hero() {
             View My Work
           </a>
           <a
-            href="https://drive.google.com/file/d/1Ieu1ztCMkaL6vEbUC9d9Zu-xwIeDGAAr/view?usp=sharing"
+            href="https://drive.google.com/file/d/1B1QfuOk-t-glzJUuKZc-3c4gnaea6dGk/view?usp=sharing"
             target="_blank"
             className="px-6 py-3 rounded-lg font-semibold border border-accent text-accent hover:bg-accent/10 transition-all duration-150 text-center"
           >
