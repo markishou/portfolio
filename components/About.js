@@ -8,8 +8,8 @@ export default function About() {
         {/* About Content */}
         <div className="space-y-6">
           <p className="text-lg leading-relaxed">
-            I’m a software engineer currently pursuing my B.Sc. in Computer
-            Science at the University of British Columbia (expected May 2026). I
+            I’m a software engineer with a B.Sc. in Computer
+            Science at the University of British Columbia. I
             enjoy building tools that solve real problems, and I approach each
             project as an opportunity to improve how I write, structure, and reason
             about code.

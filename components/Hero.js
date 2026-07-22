@@ -17,7 +17,6 @@ export default function Hero() {
         {/* Tagline */}
         <p className="text-lg md:text-xl text-text-secondary max-w-2xl mb-12 leading-relaxed">
           Software engineer building thoughtful, well-designed systems.
-          Currently pursuing my B.Sc. in Computer Science at UBC.
         </p>
 
         {/* CTA Buttons */}
