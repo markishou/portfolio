@@ -16,7 +16,7 @@ export default function About() {
           </p>
 
           <p className="text-lg leading-relaxed">
-            As an incoming new graduate, I’m continuing to explore different
+            As a new graduate, I’m continuing to explore different
             areas of software engineering — from application development to
             cloud infrastructure and distributed systems. I’m especially
             interested in how large-scale systems are designed and operated in
@@ -25,9 +25,7 @@ export default function About() {
           </p>
 
           <p className="text-lg leading-relaxed">
-            When I'm not working on a project, you'll find me exploring my
-            passion for photography, reading, or experimenting with new
-            technologies.
+            When I'm not working on a project, you'll find me out on a run, reading, or golfing badly.
           </p>
         </div>
 

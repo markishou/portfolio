@@ -30,7 +30,7 @@ export default function FeaturedProject() {
           <p>
             ReviewFlow is a full-stack SaaS application that streamlines the code
             review process for software development teams. As teams grow and pull
-            requests accumulate, code reviews become a bottleneck — PRs sit
+            requests accumulate, code reviews become a bottleneck, PRs sit
             unassigned, reviewers get overloaded, and development slows down.
             ReviewFlow solves this by automatically analyzing every pull request,
             scoring its complexity, and routing it to the most qualified available
@@ -42,7 +42,7 @@ export default function FeaturedProject() {
             calculates a complexity score based on lines changed, file types, and
             critical path detection, and assigns the best reviewer based on their
             file expertise, domain knowledge, and current workload. The entire
-            pipeline — from PR opened to reviewer assigned — completes in under
+            pipeline, from PR opened to reviewer assigned, completes in under
             one second.
           </p>
           <p>
@@ -117,13 +117,6 @@ export default function FeaturedProject() {
                 <span>
                   GitHub webhook pipeline processing PR events end-to-end in
                   under 1 second
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-accent mt-1">▸</span>
-                <span>
-                  Session-based JWT authentication implemented from scratch
-                  using HMAC-SHA256 signing
                 </span>
               </li>
               <li className="flex gap-3">
